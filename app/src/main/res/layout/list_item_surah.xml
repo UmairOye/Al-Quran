@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_2sdp"
+    android:id="@+id/cdMain"
+    android:layout_height="@dimen/_110sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/surahNameArabic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noor_huda_regualar"
+            android:text="@string/surah_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_22ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.22000003" />
+
+        <TextView
+            android:id="@+id/surahNameEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:includeFontPadding="false"
+            android:text="@string/al_faatiha"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintBottom_toBottomOf="@+id/surahNameArabic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/surahNameArabic"
+            app:layout_constraintVertical_bias="0.39" />
+
+        <TextView
+            android:id="@+id/surahNameMeaning"
+            android:layout_width="0dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:layout_height="wrap_content"
+            android:text="@string/the_opening"
+            android:textSize="@dimen/_11ssp"
+            android:fontFamily="@font/poppins"
+            app:layout_constraintEnd_toStartOf="@+id/surahNameArabic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/surahNameEnglish"
+            app:layout_constraintTop_toBottomOf="@+id/surahNameEnglish" />
+
+        <TextView
+            android:id="@+id/surahNumberOfAyahs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ayah_7"
+            android:textSize="@dimen/_11ssp"
+            android:fontFamily="@font/poppins"
+            app:layout_constraintEnd_toEndOf="@+id/surahNameMeaning"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/surahNameMeaning"
+            app:layout_constraintTop_toBottomOf="@+id/surahNameMeaning" />
+
+        <TextView
+            android:id="@+id/SurahRevelationType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/revelationtype_meccan"
+            android:fontFamily="@font/poppins"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintEnd_toEndOf="@+id/surahNameMeaning"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/surahNumberOfAyahs"
+            app:layout_constraintTop_toBottomOf="@+id/surahNumberOfAyahs" />
+
+        <TextView
+            android:id="@+id/numberOfSurah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_bold"
+            android:includeFontPadding="false"
+            app:layout_constraintBottom_toTopOf="@+id/surahNameEnglish"
+            app:layout_constraintEnd_toEndOf="@+id/surahNameEnglish"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

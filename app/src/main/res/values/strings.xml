@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="surah_name">سُورَةُ ٱلْفَاتِحَةِ</string>
+    <string name="al_faatiha">Al-Faatiha</string>
+    <string name="the_opening">The Opening</string>
+    <string name="ayah_7">Ayah : 7</string>
+    <string name="revelationtype_meccan">RevelationType: Meccan</string>
+    <string name="_1">1</string>
+    <string name="juz_30">Juz: 30</string>
+    <string name="manzil_17">Manzil: 17</string>
+    <string name="ruku_550">Ruku: 550</string>
+    <string name="sajda_true">Sajda: True</string>
+
+</resources>
