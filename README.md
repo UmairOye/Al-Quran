@@ -4,6 +4,5 @@ Al-Quran is an app used to recite Quran. It is made using https://alquran.cloud/
 
 # Screenshots
 
-<img src="screenshots/Screenshot_20231011-123819.png" alt="">
-<img src="screenshots/Screenshot_20231011-123829.png" alt="">
+<img width="200" height="350" src="screenshots/Screenshot_20231011-123819.png" alt="Image" > <img width="200" height="350" src="screenshots/Screenshot_20231011-123829.png" alt="Image" > 
 
